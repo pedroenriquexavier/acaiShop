@@ -1,14 +1,12 @@
 export default class Item {
-    constructor (obj) {
-        this.size = obj.size;
+    constructor (size, AddOns, instr) {
+        this.size = size;
         this.addOns = {
-            fruits: obj.AddOns.fruits,
-            toppings: obj.AddOns.fruits,
-            drizzle: obj.AddOns.fruits,
-            powder: obj.AddOns.fruits
+            fruits: AddOns.fruits,
+            toppings: AddOns.toppings,
+            drizzle: AddOns.drizzle,
+            powder: AddOns.powder
         };
-        this. instructions = obj.instructions;
+        this.instructions = instr;
     }
-
-    getSize (size) {}
 }
