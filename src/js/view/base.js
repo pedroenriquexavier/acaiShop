@@ -6,6 +6,7 @@ export const elements = {
     drizzleAddOn: Array.from(document.getElementById('drizzleAddOn').getElementsByTagName('input')),
     powderAddOn: Array.from(document.getElementById('powderAddOn').getElementsByTagName('input')),
     itemInstructions: document.getElementById('item-instructions'),
-    allInput: Array.from(document.getElementsByTagName('input'))
+    allInput: Array.from(document.getElementsByTagName('input')),
+    listViewNumber: document.querySelector('.shopCartNum')
 }
 
