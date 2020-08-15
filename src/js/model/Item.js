@@ -1,5 +1,5 @@
 export default class Item {
-    constructor (size, AddOns, instr) {
+    constructor (size, AddOns, instructions) {
         this.size = size;
         this.addOns = {
             fruits: AddOns.fruits,
@@ -7,6 +7,6 @@ export default class Item {
             drizzle: AddOns.drizzle,
             powder: AddOns.powder
         };
-        this.instructions = instr;
+        this.instructions = instructions;
     }
 }
