@@ -1,0 +1,9 @@
+when user clicks add to cart return to top of the page
+cart page generated from state.list
+    for each item in state.list render item
+
+ -> user clicks edit item -> render main page from item object -> also update shoppingcartNum from state.list
+  -> user can change quantity
+   -> user can delete item
+  -> display total 
+checkout page
