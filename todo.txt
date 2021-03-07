@@ -7,3 +7,20 @@ cart page generated from state.list
    -> user can delete item
   -> display total 
 checkout page
+
+Add to cart -> Acai is added to cart in front end (only local storage)
+in review order page and final order page ask user if they want to save that acai as favorite
+
+each acai is an item separetedly 
+
+review order/cart page -> take array with objects(acais) to be rendered, wich are sent with the request
+
+models needed -> acai (if user wants to save an acai as favorite)
+                 user
+                 booking (so manager and user can review/see past orders)
+
+checkout -> 
+
+
+
+
